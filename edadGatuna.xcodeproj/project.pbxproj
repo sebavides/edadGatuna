@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6BF2C3A1C01604C005AEB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF2C391C01604C005AEB79 /* AppDelegate.swift */; };
+		F6BF2C3C1C01604C005AEB79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF2C3B1C01604C005AEB79 /* ViewController.swift */; };
+		F6BF2C3F1C01604C005AEB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BF2C3D1C01604C005AEB79 /* Main.storyboard */; };
+		F6BF2C411C01604C005AEB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BF2C401C01604C005AEB79 /* Assets.xcassets */; };
+		F6BF2C441C01604C005AEB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BF2C421C01604C005AEB79 /* LaunchScreen.storyboard */; };
+		F6BF2C4F1C01604C005AEB79 /* edadGatunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF2C4E1C01604C005AEB79 /* edadGatunaTests.swift */; };
+		F6BF2C5A1C01604C005AEB79 /* edadGatunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF2C591C01604C005AEB79 /* edadGatunaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6BF2C4B1C01604C005AEB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BF2C2E1C01604C005AEB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BF2C351C01604C005AEB79;
+			remoteInfo = edadGatuna;
+		};
+		F6BF2C561C01604C005AEB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BF2C2E1C01604C005AEB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BF2C351C01604C005AEB79;
+			remoteInfo = edadGatuna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6BF2C361C01604C005AEB79 /* edadGatuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edadGatuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF2C391C01604C005AEB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6BF2C3B1C01604C005AEB79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6BF2C3E1C01604C005AEB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6BF2C401C01604C005AEB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6BF2C431C01604C005AEB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6BF2C451C01604C005AEB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BF2C4A1C01604C005AEB79 /* edadGatunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edadGatunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF2C4E1C01604C005AEB79 /* edadGatunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edadGatunaTests.swift; sourceTree = "<group>"; };
+		F6BF2C501C01604C005AEB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BF2C551C01604C005AEB79 /* edadGatunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = edadGatunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF2C591C01604C005AEB79 /* edadGatunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edadGatunaUITests.swift; sourceTree = "<group>"; };
+		F6BF2C5B1C01604C005AEB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BF2C331C01604C005AEB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF2C471C01604C005AEB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF2C521C01604C005AEB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BF2C2D1C01604C005AEB79 = {
+			isa = PBXGroup;
+			children = (
+				F6BF2C381C01604C005AEB79 /* edadGatuna */,
+				F6BF2C4D1C01604C005AEB79 /* edadGatunaTests */,
+				F6BF2C581C01604C005AEB79 /* edadGatunaUITests */,
+				F6BF2C371C01604C005AEB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BF2C371C01604C005AEB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF2C361C01604C005AEB79 /* edadGatuna.app */,
+				F6BF2C4A1C01604C005AEB79 /* edadGatunaTests.xctest */,
+				F6BF2C551C01604C005AEB79 /* edadGatunaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BF2C381C01604C005AEB79 /* edadGatuna */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF2C391C01604C005AEB79 /* AppDelegate.swift */,
+				F6BF2C3B1C01604C005AEB79 /* ViewController.swift */,
+				F6BF2C3D1C01604C005AEB79 /* Main.storyboard */,
+				F6BF2C401C01604C005AEB79 /* Assets.xcassets */,
+				F6BF2C421C01604C005AEB79 /* LaunchScreen.storyboard */,
+				F6BF2C451C01604C005AEB79 /* Info.plist */,
+			);
+			path = edadGatuna;
+			sourceTree = "<group>";
+		};
+		F6BF2C4D1C01604C005AEB79 /* edadGatunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF2C4E1C01604C005AEB79 /* edadGatunaTests.swift */,
+				F6BF2C501C01604C005AEB79 /* Info.plist */,
+			);
+			path = edadGatunaTests;
+			sourceTree = "<group>";
+		};
+		F6BF2C581C01604C005AEB79 /* edadGatunaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF2C591C01604C005AEB79 /* edadGatunaUITests.swift */,
+				F6BF2C5B1C01604C005AEB79 /* Info.plist */,
+			);
+			path = edadGatunaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BF2C351C01604C005AEB79 /* edadGatuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BF2C5E1C01604C005AEB79 /* Build configuration list for PBXNativeTarget "edadGatuna" */;
+			buildPhases = (
+				F6BF2C321C01604C005AEB79 /* Sources */,
+				F6BF2C331C01604C005AEB79 /* Frameworks */,
+				F6BF2C341C01604C005AEB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = edadGatuna;
+			productName = edadGatuna;
+			productReference = F6BF2C361C01604C005AEB79 /* edadGatuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6BF2C491C01604C005AEB79 /* edadGatunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BF2C611C01604C005AEB79 /* Build configuration list for PBXNativeTarget "edadGatunaTests" */;
+			buildPhases = (
+				F6BF2C461C01604C005AEB79 /* Sources */,
+				F6BF2C471C01604C005AEB79 /* Frameworks */,
+				F6BF2C481C01604C005AEB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BF2C4C1C01604C005AEB79 /* PBXTargetDependency */,
+			);
+			name = edadGatunaTests;
+			productName = edadGatunaTests;
+			productReference = F6BF2C4A1C01604C005AEB79 /* edadGatunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6BF2C541C01604C005AEB79 /* edadGatunaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BF2C641C01604C005AEB79 /* Build configuration list for PBXNativeTarget "edadGatunaUITests" */;
+			buildPhases = (
+				F6BF2C511C01604C005AEB79 /* Sources */,
+				F6BF2C521C01604C005AEB79 /* Frameworks */,
+				F6BF2C531C01604C005AEB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BF2C571C01604C005AEB79 /* PBXTargetDependency */,
+			);
+			name = edadGatunaUITests;
+			productName = edadGatunaUITests;
+			productReference = F6BF2C551C01604C005AEB79 /* edadGatunaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BF2C2E1C01604C005AEB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Seba Benavides";
+				TargetAttributes = {
+					F6BF2C351C01604C005AEB79 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F6BF2C491C01604C005AEB79 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F6BF2C351C01604C005AEB79;
+					};
+					F6BF2C541C01604C005AEB79 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F6BF2C351C01604C005AEB79;
+					};
+				};
+			};
+			buildConfigurationList = F6BF2C311C01604C005AEB79 /* Build configuration list for PBXProject "edadGatuna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6BF2C2D1C01604C005AEB79;
+			productRefGroup = F6BF2C371C01604C005AEB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BF2C351C01604C005AEB79 /* edadGatuna */,
+				F6BF2C491C01604C005AEB79 /* edadGatunaTests */,
+				F6BF2C541C01604C005AEB79 /* edadGatunaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BF2C341C01604C005AEB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF2C441C01604C005AEB79 /* LaunchScreen.storyboard in Resources */,
+				F6BF2C411C01604C005AEB79 /* Assets.xcassets in Resources */,
+				F6BF2C3F1C01604C005AEB79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF2C481C01604C005AEB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF2C531C01604C005AEB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BF2C321C01604C005AEB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF2C3C1C01604C005AEB79 /* ViewController.swift in Sources */,
+				F6BF2C3A1C01604C005AEB79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF2C461C01604C005AEB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF2C4F1C01604C005AEB79 /* edadGatunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF2C511C01604C005AEB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF2C5A1C01604C005AEB79 /* edadGatunaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6BF2C4C1C01604C005AEB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BF2C351C01604C005AEB79 /* edadGatuna */;
+			targetProxy = F6BF2C4B1C01604C005AEB79 /* PBXContainerItemProxy */;
+		};
+		F6BF2C571C01604C005AEB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BF2C351C01604C005AEB79 /* edadGatuna */;
+			targetProxy = F6BF2C561C01604C005AEB79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6BF2C3D1C01604C005AEB79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BF2C3E1C01604C005AEB79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6BF2C421C01604C005AEB79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BF2C431C01604C005AEB79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6BF2C5C1C01604C005AEB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BF2C5D1C01604C005AEB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BF2C5F1C01604C005AEB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = edadGatuna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.edadGatuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6BF2C601C01604C005AEB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = edadGatuna/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.edadGatuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6BF2C621C01604C005AEB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = edadGatunaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.edadGatunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/edadGatuna.app/edadGatuna";
+			};
+			name = Debug;
+		};
+		F6BF2C631C01604C005AEB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = edadGatunaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.edadGatunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/edadGatuna.app/edadGatuna";
+			};
+			name = Release;
+		};
+		F6BF2C651C01604C005AEB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = edadGatunaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.edadGatunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = edadGatuna;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F6BF2C661C01604C005AEB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = edadGatunaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.edadGatunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = edadGatuna;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BF2C311C01604C005AEB79 /* Build configuration list for PBXProject "edadGatuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF2C5C1C01604C005AEB79 /* Debug */,
+				F6BF2C5D1C01604C005AEB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BF2C5E1C01604C005AEB79 /* Build configuration list for PBXNativeTarget "edadGatuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF2C5F1C01604C005AEB79 /* Debug */,
+				F6BF2C601C01604C005AEB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6BF2C611C01604C005AEB79 /* Build configuration list for PBXNativeTarget "edadGatunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF2C621C01604C005AEB79 /* Debug */,
+				F6BF2C631C01604C005AEB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6BF2C641C01604C005AEB79 /* Build configuration list for PBXNativeTarget "edadGatunaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF2C651C01604C005AEB79 /* Debug */,
+				F6BF2C661C01604C005AEB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BF2C2E1C01604C005AEB79 /* Project object */;
+}
